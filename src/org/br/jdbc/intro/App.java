@@ -3,7 +3,6 @@ import java.sql.*;
 
 public class App {
     public static void main(String[] args) throws SQLException {
-        System.out.println("Hello world!");
         String url = "jdbc:mysql://127.0.0.1:3306/digi-jdbc?useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC";
         String login = "root";
         String pwd = "";
